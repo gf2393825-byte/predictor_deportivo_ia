@@ -1,0 +1,28 @@
+# Entorno Virtual
+venv/
+ENV/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Base de datos local (evita sobreescribir DBs de desarrollo)
+data/processed/*.db
+*.sqlite3
+
+# Exportaciones y reportes generados
+exports/*.csv
+exports/*.txt
+
+# IDEs y configuración local
+.vscode/
+.idea/
+*.swp
+
+# Logs y SO
+*.log
+.DS_Store
+Thumbs.db

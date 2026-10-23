@@ -1,0 +1,1 @@
+Path('src/progol/combinatorio.py').write_text(code, encoding='utf-8')  crear_script.py 
